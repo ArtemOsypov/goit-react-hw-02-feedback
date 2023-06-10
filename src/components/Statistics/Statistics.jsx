@@ -30,6 +30,7 @@ export const Statistics = ({ good, neutral, bad, totalVotes, positivePercentage 
   );
 };
 
+
 Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,

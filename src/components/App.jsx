@@ -12,6 +12,7 @@ export class App extends Component {
     bad: 0,
   };
 
+  
   countTotalFeedback = () => {
     const votes = Object.values(this.state);
     return votes.reduce((acc, vote) => acc + vote, 0);

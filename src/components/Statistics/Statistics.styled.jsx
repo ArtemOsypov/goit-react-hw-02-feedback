@@ -8,6 +8,7 @@ export const Votes = styled.ul`
   gap: 10px;
 `;
 
+
 export const VotesItem = styled.li`
   display: flex;
   align-items: center;
